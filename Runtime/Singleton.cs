@@ -6,8 +6,8 @@ namespace SingletonPattern
     {
         protected Singleton() { }
 
-        private static readonly Lazy<T> instance = new Lazy<T>(() => new T());
+        private static readonly Lazy<T> _instance = new Lazy<T>(() => new T());
 
-        public static T Instance { get { return instance.Value; } }
+        public static T Instance { get { return _instance.Value; } }
     }
 }

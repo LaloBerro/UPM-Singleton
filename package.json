@@ -1,7 +1,7 @@
 {
-  "name": "com.tgl.singleton",
+  "name": "com.lalo.singleton",
   "version": "1.1.1",
-  "displayName": "TGL - Singleton",
+  "displayName": "Singleton",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "documentationUrl": "",
@@ -9,7 +9,7 @@
   "licensesUrl": "",
   "keywords": [],
   "author": {
-    "name": "TGL",
+    "name": "Lalo",
     "email": "",
     "url": ""
   },

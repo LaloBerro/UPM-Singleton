@@ -6,16 +6,7 @@ namespace SingletonPattern
     {
         protected static Type _instance;
 
-        public static Type Instance
-        {
-            get
-            {
-                if (null == _instance)
-                    throw new System.Exception("An instance of " + typeof(Type) + " is needed in the scene, but there is none.");
-
-                return _instance;
-            }
-        }
+        public static Type Instance => _instance;
 
         protected void InitializeSingleton()
         {
